@@ -17,7 +17,6 @@ This Chrome extension allows users to analyze and perform sentiment analysis of 
 Before using the extension, you need to have the following:
 
 - Google Chrome browser installed on your computer.
-- A Twitter Developer Account to access the Twitter API. You can create an account and set up an application at the [Twitter Developer Portal](https://developer.twitter.com/).
 
 ## Utilities
 
