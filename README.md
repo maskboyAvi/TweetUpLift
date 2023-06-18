@@ -19,6 +19,29 @@ Before using the extension, you need to have the following:
 - Google Chrome browser installed on your computer.
 - A Twitter Developer Account to access the Twitter API. You can create an account and set up an application at the [Twitter Developer Portal](https://developer.twitter.com/).
 
+## Utilities
+
+The Twitter Sentiment Analyzer Chrome Extension utilizes several utility libraries and tools for data analysis, visualization, and machine learning. Here are the key utilities used in this project:
+
+- **NumPy**: A powerful library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+
+- **Pandas**: A popular data manipulation and analysis library. It provides data structures like DataFrames for efficient data handling, along with a wide range of functions for data cleaning, transformation, and exploration.
+
+- **Seaborn**: A Python data visualization library based on Matplotlib. Seaborn provides a high-level interface for creating informative and visually appealing statistical graphics.
+
+- **WordCloud**: A library for generating word clouds from text data. Word clouds are visual representations of text, where the size of each word corresponds to its frequency or importance.
+
+- **Matplotlib**: A comprehensive plotting library in Python. Matplotlib allows you to create a wide variety of static, animated, and interactive visualizations.
+
+- **NLTK**: The Natural Language Toolkit (NLTK) is a library for working with human language data. It provides various tools and resources for tasks such as tokenization, stemming, lemmatization, part-of-speech tagging, and more.
+
+- **LogisticRegression**: A classifier model from the scikit-learn library. Logistic regression is a common algorithm used for binary classification tasks, where the goal is to predict one of two possible outcomes.
+
+- **TfidfVectorizer**: A feature extraction technique used to convert text data into numerical representations. The TfidfVectorizer calculates the Term Frequency-Inverse Document Frequency (TF-IDF) value for each word in the text, which helps to capture the importance of each word in the document.
+
+These utilities are essential for performing sentiment analysis, data visualization, and machine learning tasks within the Twitter Sentiment Analyzer Chrome Extension.
+
+
 ## Installation
 
 To install the Twitter Sentiment Analyzer Chrome Extension, follow these steps:
@@ -99,7 +122,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- The sentiment analysis algorithm used in this extension is [Linear Regression]
+- The sentiment analysis algorithm used in this extension is [Logistic Regression]
 - This extension utilizes the [Twitter API](https://developer.twitter.com/).
 
 Feel free to customize and enhance the extension to suit your needs. If you have any questions or encounter any issues, please submit them to the GitHub repository's issue tracker.
